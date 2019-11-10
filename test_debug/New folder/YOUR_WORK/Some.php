@@ -8,8 +8,9 @@
       {
           public function checkArrayLength()
           {
-            //$arr_lenght = [];
-            return 0;
+            $arr = array();
+            $arr_length = count($arr);
+            return $arr_length;
           }
           
  
