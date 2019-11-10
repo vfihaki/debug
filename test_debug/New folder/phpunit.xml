@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit color="true">
+  <testsuites>
+    <testsuite name="Person Tests">
+      <directory>./tests/PersonTest.php</directory>
+      <file>./YOUR_WORK/Person.php</file>
+      <!-- <exclude>/path/to/exclude</exclude> -->
+    </testsuite>
+    <testsuite name="Random Tests">
+      <directory>./tests/RandomTest.php</directory>
+      <file>./YOUR_WORK/Random.php</file>
+      <!-- <exclude>/path/to/exclude</exclude> -->
+      </testsuite>
+    <testsuite name="EXAM">
+      <directory>./tests/ExamTest.php</directory>
+      <file>./YOUR_WORK/index.php</file>
+    </testsuite>
+    <testsuite name="Some Tes">
+      <directory>./tests/SomeTest.php</directory>
+      <file>./YOUR_WORK/Some.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
